@@ -1,57 +1,26 @@
-# create-vite <a href="https://npmjs.com/package/create-vite"><img src="https://img.shields.io/npm/v/create-vite" alt="npm package"></a>
+# Getting Started with Create React App
 
-## Scaffolding Your First Vite Project
 
-> **Compatibility Note:**
-> Vite requires [Node.js](https://nodejs.org/en/) version 18+, 20+. However, some templates require a higher Node.js version to work, please upgrade if your package manager warns about it.
+In the project directory, you can run:
+### ` npm i `
 
-With NPM:
+### `npm start`
 
-```bash
-$ npm create vite@latest
-```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Then follow the prompts!
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-You can also directly specify the project name and the template you want to use via additional command line options. For example, to scaffold a Vite + Vue project, run:
+### `npm test`
 
-```bash
-# npm 7+, extra double-dash is needed:
-npm create vite@latest my-vue-app -- --template vue
+### `npm run build`
 
-Currently supported template presets include:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- `vanilla`
-- `vanilla-ts`
-- `vue`
-- `vue-ts`
-- `react`
-- `react-ts`
-- `react-swc`
-- `react-swc-ts`
-- `preact`
-- `preact-ts`
-- `lit`
-- `lit-ts`
-- `svelte`
-- `svelte-ts`
-- `solid`
-- `solid-ts`
-- `qwik`
-- `qwik-ts`
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-You can use `.` for the project name to scaffold in the current directory.
+# `npm run deploy`
 
-## Community Templates
-
-create-vite is a tool to quickly start a project from a basic template for popular frameworks. Check out Awesome Vite for [community maintained templates](https://github.com/vitejs/awesome-vite#templates) that include other tools or target different frameworks. You can use a tool like [degit](https://github.com/Rich-Harris/degit) to scaffold your project with one of the templates.
-
-```bash
-
-cd react-app
-
-npm install
-npm run dev
-```
-
-If the project uses `main` as the default branch, suffix the project repo with `#main`
